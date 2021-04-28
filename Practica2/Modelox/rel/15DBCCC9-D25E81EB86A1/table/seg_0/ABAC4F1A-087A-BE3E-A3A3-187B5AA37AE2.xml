@@ -1,0 +1,116 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="ABAC4F1A-087A-BE3E-A3A3-187B5AA37AE2" name="Efectividad">
+<createdBy>Alexander</createdBy>
+<createdTime>2020-03-27 10:47:27 UTC</createdTime>
+<generatorID>2A795E9E-6E07-1677-F095-DF8526048C79</generatorID>
+<ownerDesignName>Modelox</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_victima" id="37797B4A-17A8-57A2-EE2B-46B68ACA7C21">
+<createdBy>Alexander</createdBy>
+<createdTime>2020-03-27 10:47:27 UTC</createdTime>
+<generatorID>D0360241-389E-81CB-D285-F23E057B6C61</generatorID>
+<ownerDesignName>Modelox</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C7FEB203-5B39-A778-79C6-52D19E026A45" referredColumn="4A858327-208F-42A1-8D47-7EA069F9018A"/>
+</associations>
+</Column>
+<Column name="id_tratamiento" id="49617C23-8456-8411-542E-EEF1D9CEF6F2">
+<createdBy>Alexander</createdBy>
+<createdTime>2020-03-27 10:47:27 UTC</createdTime>
+<generatorID>E8D81F2C-8830-FA65-FB0F-3C70793FE263</generatorID>
+<ownerDesignName>Modelox</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6B56AEEC-5F2D-E59C-C819-F3EF79114267" referredColumn="2E0F8881-18D8-9C88-433F-781168F99EEE"/>
+</associations>
+</Column>
+<Column name="nivel_efectividad" id="68741E44-BFBD-FACF-F5E8-E2C77373BA36">
+<createdBy>Alexander</createdBy>
+<createdTime>2020-03-27 10:47:27 UTC</createdTime>
+<generatorID>E0499C1F-811D-9298-2389-67934F3754F0</generatorID>
+<ownerDesignName>Modelox</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_inicio_tratamiento" id="FF0FA081-F246-218D-03CC-345758A1B55F">
+<createdBy>Alexander</createdBy>
+<createdTime>2020-03-27 10:47:27 UTC</createdTime>
+<generatorID>054FF9B5-C9AA-71EC-1FF7-C65A9232C8BD</generatorID>
+<ownerDesignName>Modelox</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_fin_tratamiento" id="81ECF750-6C38-4F33-1169-8F4DB59C0FA8">
+<createdBy>Alexander</createdBy>
+<createdTime>2020-03-27 10:47:27 UTC</createdTime>
+<generatorID>753489A3-F11B-A874-8E0E-8BF11E77FA57</generatorID>
+<ownerDesignName>Modelox</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FDC7BC4B-BA3E-8E12-88BA-F4DBEF4C659D" name="Efectividad_PK">
+<createdBy>Alexander</createdBy>
+<createdTime>2020-03-27 10:47:27 UTC</createdTime>
+<generatorID>8A18C1B2-24CF-9C4B-D35F-07920DD7E2BE</generatorID>
+<ownerDesignName>Modelox</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="37797B4A-17A8-57A2-EE2B-46B68ACA7C21"/>
+<colUsage columnID="49617C23-8456-8411-542E-EEF1D9CEF6F2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DC27FE4E-01EE-031E-17C4-1060822AA3DB" name="Efectividad_Tratamientos_FK">
+<createdBy>Alexander</createdBy>
+<createdTime>2020-03-27 10:47:27 UTC</createdTime>
+<generatorID>E5C0FDC7-EAB6-DA20-6628-C4DCD5098DB9</generatorID>
+<ownerDesignName>Modelox</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="49617C23-8456-8411-542E-EEF1D9CEF6F2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A653E7E1-7BA7-C12E-C9C9-0108F476D5ED" name="Efectividad_Victimas_FK">
+<createdBy>Alexander</createdBy>
+<createdTime>2020-03-27 10:47:27 UTC</createdTime>
+<generatorID>8358DD29-FED2-BEC9-9907-C73F8351B0D7</generatorID>
+<ownerDesignName>Modelox</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="37797B4A-17A8-57A2-EE2B-46B68ACA7C21"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

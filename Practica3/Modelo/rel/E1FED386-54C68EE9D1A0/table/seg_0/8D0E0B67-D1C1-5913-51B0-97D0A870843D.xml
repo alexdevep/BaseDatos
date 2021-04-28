@@ -1,0 +1,50 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8D0E0B67-D1C1-5913-51B0-97D0A870843D" name="Lenguaje">
+<createdBy>Alexander</createdBy>
+<createdTime>2020-04-14 07:51:37 UTC</createdTime>
+<generatorID>5DA93784-AF0C-DAAA-1B43-EAF003E4486C</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_lenguaje" id="8EA700BB-4F28-1D11-3637-68D97E9B4CFE">
+<createdBy>Alexander</createdBy>
+<createdTime>2020-04-14 07:51:37 UTC</createdTime>
+<generatorID>5CDD0009-7E1D-BC46-2DE0-A9DE4838A2D6</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="descripcion" id="096C91E1-C102-306F-3853-4AC9A5BF84E8">
+<createdBy>Alexander</createdBy>
+<createdTime>2020-04-14 07:51:37 UTC</createdTime>
+<generatorID>000B2B61-805D-653F-026D-60098F939A31</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4FA7752E-4145-D560-D1E9-4C7CF2BA0C1E" name="Lenguaje_PK">
+<createdBy>Alexander</createdBy>
+<createdTime>2020-04-14 07:51:37 UTC</createdTime>
+<generatorID>2D91D77E-CA60-F97C-F65E-74C146931AA0</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8EA700BB-4F28-1D11-3637-68D97E9B4CFE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

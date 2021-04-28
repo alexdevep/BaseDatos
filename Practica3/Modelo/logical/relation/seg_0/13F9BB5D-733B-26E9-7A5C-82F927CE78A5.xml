@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="fk_id_renta" directorySegmentName="seg_0" id="13F9BB5D-733B-26E9-7A5C-82F927CE78A5">
+<createdBy>Alexander</createdBy>
+<createdTime>2020-04-14 07:48:06 UTC</createdTime>
+<ownerDesignName>Modelo</ownerDesignName>
+<engineerTo>
+<item key="E1FED386-71EE-D2E8-A842-54C68EE9D1A0" value="true"/>
+</engineerTo>
+<sourcePk>8D81B54E-A83A-3852-5982-211CC89F7CD6</sourcePk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>E856A0D9-D81E-036F-FEEE-898E5FD5781A</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>FF0151AA-2349-792A-5480-EB80B9D4B917</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

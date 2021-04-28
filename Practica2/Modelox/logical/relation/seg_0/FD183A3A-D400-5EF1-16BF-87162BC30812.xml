@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="fk_id_victima3" directorySegmentName="seg_0" id="FD183A3A-D400-5EF1-16BF-87162BC30812">
+<createdBy>Alexander</createdBy>
+<createdTime>2020-03-27 10:54:15 UTC</createdTime>
+<ownerDesignName>Modelox</ownerDesignName>
+<engineerTo>
+<item key="15DBCCC9-9A79-B50F-F7A7-D25E81EB86A1" value="true"/>
+</engineerTo>
+<sourcePk>CC1DCD7A-B2E2-BB6E-7C5B-3E2AFFF99D01</sourcePk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>293B21A7-19AB-F24C-62D9-B3412A9878A0</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>888356E9-F17E-DABD-314C-6F46D0E863A5</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

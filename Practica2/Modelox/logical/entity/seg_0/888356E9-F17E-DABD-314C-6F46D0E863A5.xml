@@ -1,0 +1,129 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="888356E9-F17E-DABD-314C-6F46D0E863A5" name="Contactos">
+<createdBy>Alexander</createdBy>
+<createdTime>2020-03-27 10:50:12 UTC</createdTime>
+<ownerDesignName>Modelox</ownerDesignName>
+<engineerTo>
+<item key="15DBCCC9-9A79-B50F-F7A7-D25E81EB86A1" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_contacto" id="92762CEA-5F7A-0F39-D9AC-BBE68C2EFCB9">
+<createdBy>Alexander</createdBy>
+<createdTime>2020-03-27 10:50:20 UTC</createdTime>
+<ownerDesignName>Modelox</ownerDesignName>
+<engineerTo>
+<item key="15DBCCC9-9A79-B50F-F7A7-D25E81EB86A1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha_conocido" id="A4454735-659A-B8D2-2BC0-172293B58C03">
+<createdBy>Alexander</createdBy>
+<createdTime>2020-03-27 10:50:45 UTC</createdTime>
+<ownerDesignName>Modelox</ownerDesignName>
+<engineerTo>
+<item key="15DBCCC9-9A79-B50F-F7A7-D25E81EB86A1" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha_inicio_contacto" id="914EFF9F-9CE7-80AD-52D1-9CC765DB6B5A">
+<createdBy>Alexander</createdBy>
+<createdTime>2020-03-27 10:51:25 UTC</createdTime>
+<ownerDesignName>Modelox</ownerDesignName>
+<engineerTo>
+<item key="15DBCCC9-9A79-B50F-F7A7-D25E81EB86A1" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha_fin_contacto" id="6FF799DD-54A3-08FE-384E-88FC9AA0821F">
+<createdBy>Alexander</createdBy>
+<createdTime>2020-03-27 10:51:47 UTC</createdTime>
+<ownerDesignName>Modelox</ownerDesignName>
+<engineerTo>
+<item key="15DBCCC9-9A79-B50F-F7A7-D25E81EB86A1" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_victima" id="33D75BEE-2961-3690-FBC8-1654CAE0E3C1">
+<createdBy>Alexander</createdBy>
+<createdTime>2020-03-27 10:54:15 UTC</createdTime>
+<generatorID>FD183A3A-D400-5EF1-16BF-87162BC30812</generatorID>
+<ownerDesignName>Modelox</ownerDesignName>
+<engineerTo>
+<item key="15DBCCC9-9A79-B50F-F7A7-D25E81EB86A1" value="true"/>
+</engineerTo>
+<referedAttribute>C439134F-C224-AA59-A425-5AD3C4C52DF5</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_asociado" id="01A31F0D-1AFF-7244-AADE-DAF8D8FA9330">
+<createdBy>Alexander</createdBy>
+<createdTime>2020-03-27 10:54:37 UTC</createdTime>
+<generatorID>0389BCD4-3C36-0D97-AE71-DF108E58673F</generatorID>
+<ownerDesignName>Modelox</ownerDesignName>
+<engineerTo>
+<item key="15DBCCC9-9A79-B50F-F7A7-D25E81EB86A1" value="true"/>
+</engineerTo>
+<referedAttribute>13E3C3E7-2F85-9660-904D-BC5BA463C98B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_tipo_contacto" id="3260D8F3-5918-FFEB-D1BB-28E06936C970">
+<createdBy>Alexander</createdBy>
+<createdTime>2020-03-27 10:54:50 UTC</createdTime>
+<generatorID>87F075A0-359B-3DD6-19C1-81FC12D820A9</generatorID>
+<ownerDesignName>Modelox</ownerDesignName>
+<engineerTo>
+<item key="15DBCCC9-9A79-B50F-F7A7-D25E81EB86A1" value="true"/>
+</engineerTo>
+<referedAttribute>A33832CE-0B61-E8C6-FFC5-3738C49810E7</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="6CA70F48-4A50-7E88-2841-5A1AAE4062D2" name="Contactos PK">
+<createdBy>Alexander</createdBy>
+<createdTime>2020-03-27 10:50:44 UTC</createdTime>
+<ownerDesignName>Modelox</ownerDesignName>
+<engineerTo>
+<item key="15DBCCC9-9A79-B50F-F7A7-D25E81EB86A1" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>92762CEA-5F7A-0F39-D9AC-BBE68C2EFCB9</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

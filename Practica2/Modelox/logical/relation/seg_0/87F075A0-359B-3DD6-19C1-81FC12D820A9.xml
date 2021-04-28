@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="fk_id_tipo_contacto" directorySegmentName="seg_0" id="87F075A0-359B-3DD6-19C1-81FC12D820A9">
+<createdBy>Alexander</createdBy>
+<createdTime>2020-03-27 10:54:50 UTC</createdTime>
+<ownerDesignName>Modelox</ownerDesignName>
+<engineerTo>
+<item key="15DBCCC9-9A79-B50F-F7A7-D25E81EB86A1" value="true"/>
+</engineerTo>
+<sourcePk>90D5EA31-4FCB-9593-674B-344CC887867C</sourcePk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>99ADD4E5-E8C8-7759-BAC9-3CF260AE2E8A</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>888356E9-F17E-DABD-314C-6F46D0E863A5</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

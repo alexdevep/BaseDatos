@@ -1,0 +1,157 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="293B21A7-19AB-F24C-62D9-B3412A9878A0" name="Victimas">
+<createdBy>Alexander</createdBy>
+<createdTime>2020-03-27 10:36:50 UTC</createdTime>
+<ownerDesignName>Modelox</ownerDesignName>
+<engineerTo>
+<item key="15DBCCC9-9A79-B50F-F7A7-D25E81EB86A1" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_victima" id="C439134F-C224-AA59-A425-5AD3C4C52DF5">
+<createdBy>Alexander</createdBy>
+<createdTime>2020-03-27 10:36:59 UTC</createdTime>
+<ownerDesignName>Modelox</ownerDesignName>
+<engineerTo>
+<item key="15DBCCC9-9A79-B50F-F7A7-D25E81EB86A1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre" id="F33A6621-1B2F-9456-6072-C551305E1714">
+<createdBy>Alexander</createdBy>
+<createdTime>2020-03-27 10:37:22 UTC</createdTime>
+<ownerDesignName>Modelox</ownerDesignName>
+<engineerTo>
+<item key="15DBCCC9-9A79-B50F-F7A7-D25E81EB86A1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="apellido" id="59399D88-C606-B623-26D7-C2A0B6DDA181">
+<createdBy>Alexander</createdBy>
+<createdTime>2020-03-27 10:37:38 UTC</createdTime>
+<ownerDesignName>Modelox</ownerDesignName>
+<engineerTo>
+<item key="15DBCCC9-9A79-B50F-F7A7-D25E81EB86A1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="direccion" id="8DC31318-2E7F-3D0A-871E-6F11D3241F07">
+<createdBy>Alexander</createdBy>
+<createdTime>2020-03-27 10:37:51 UTC</createdTime>
+<ownerDesignName>Modelox</ownerDesignName>
+<engineerTo>
+<item key="15DBCCC9-9A79-B50F-F7A7-D25E81EB86A1" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150</dataTypeSize>
+<ownDataTypeParameters>150,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha_primera_sospecha" id="87DC2777-08E9-0C16-520B-DCFE190F3024">
+<createdBy>Alexander</createdBy>
+<createdTime>2020-03-27 10:38:01 UTC</createdTime>
+<ownerDesignName>Modelox</ownerDesignName>
+<engineerTo>
+<item key="15DBCCC9-9A79-B50F-F7A7-D25E81EB86A1" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha_confirmacion" id="017B1EA6-6E1A-13FF-98B1-36D6F62DD51F">
+<createdBy>Alexander</createdBy>
+<createdTime>2020-03-27 10:39:02 UTC</createdTime>
+<ownerDesignName>Modelox</ownerDesignName>
+<engineerTo>
+<item key="15DBCCC9-9A79-B50F-F7A7-D25E81EB86A1" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha_muerte" id="D1421426-3E0E-21C4-75DC-6A9107D081F8">
+<createdBy>Alexander</createdBy>
+<createdTime>2020-03-27 10:39:07 UTC</createdTime>
+<ownerDesignName>Modelox</ownerDesignName>
+<engineerTo>
+<item key="15DBCCC9-9A79-B50F-F7A7-D25E81EB86A1" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="estado_victima" id="3DBE71C4-3CDF-0CF1-D3F3-022B55FA30D4">
+<createdBy>Alexander</createdBy>
+<createdTime>2020-03-27 10:40:07 UTC</createdTime>
+<ownerDesignName>Modelox</ownerDesignName>
+<engineerTo>
+<item key="15DBCCC9-9A79-B50F-F7A7-D25E81EB86A1" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_hospital" id="9FA3422E-898F-FA50-9970-6DCD90682EF3">
+<createdBy>Alexander</createdBy>
+<createdTime>2020-03-27 10:40:42 UTC</createdTime>
+<generatorID>6DBCFE61-32CA-2F87-9B65-A5E5B449B599</generatorID>
+<ownerDesignName>Modelox</ownerDesignName>
+<engineerTo>
+<item key="15DBCCC9-9A79-B50F-F7A7-D25E81EB86A1" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>FDC1CB2D-C187-BF43-90E2-F9A93D02D2DD</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="CC1DCD7A-B2E2-BB6E-7C5B-3E2AFFF99D01" name="Victimas PK">
+<createdBy>Alexander</createdBy>
+<createdTime>2020-03-27 10:37:20 UTC</createdTime>
+<ownerDesignName>Modelox</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="15DBCCC9-9A79-B50F-F7A7-D25E81EB86A1" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>C439134F-C224-AA59-A425-5AD3C4C52DF5</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

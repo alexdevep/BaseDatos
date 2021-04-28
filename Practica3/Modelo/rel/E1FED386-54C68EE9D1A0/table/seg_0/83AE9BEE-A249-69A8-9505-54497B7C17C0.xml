@@ -1,0 +1,126 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="83AE9BEE-A249-69A8-9505-54497B7C17C0" name="Autorizacion">
+<createdBy>Alexander</createdBy>
+<createdTime>2020-04-14 07:51:37 UTC</createdTime>
+<generatorID>E1D656CB-EF61-68AE-1AE4-1A8F47762ABC</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_autorizacion" id="979B47EE-5CF8-2C4F-1811-AC53104F6A55">
+<createdBy>Alexander</createdBy>
+<createdTime>2020-04-14 07:51:37 UTC</createdTime>
+<generatorID>683A9849-1FC0-158D-4A9B-03332235713F</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="usuario" id="A868DDFD-CE4A-72D2-466E-D1F316A39F62">
+<createdBy>Alexander</createdBy>
+<createdTime>2020-04-14 07:51:37 UTC</createdTime>
+<generatorID>F6B60E00-4BA9-6C1A-AA36-67AF3E48857E</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="contrasenia" id="1572B361-911B-C174-53E7-8B806DD2F3EB">
+<createdBy>Alexander</createdBy>
+<createdTime>2020-04-14 07:51:37 UTC</createdTime>
+<generatorID>BB0CACC6-A981-BA24-20EE-43BBD9455FF3</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_tienda" id="5956D59A-D5C5-7B36-8553-89E7C8E1FF4C">
+<createdBy>Alexander</createdBy>
+<createdTime>2020-04-14 07:51:37 UTC</createdTime>
+<generatorID>C2C22551-7298-62C2-7154-9AD10BA6B35F</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0AFD5B12-9898-9CAA-169C-55C565A2C152" referredColumn="6513E063-75DC-3FFA-D05B-08E93E4DE25A"/>
+</associations>
+</Column>
+<Column name="id_empleado" id="F48F46E9-963A-85F7-014A-BB88563591AE">
+<createdBy>Alexander</createdBy>
+<createdTime>2020-04-14 07:51:37 UTC</createdTime>
+<ownerDesignName>Modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_empleado1" id="D420F954-0F17-B17C-DD12-48BEE9FB66A2">
+<createdBy>Alexander</createdBy>
+<createdTime>2020-04-23 11:06:02 UTC</createdTime>
+<generatorID>7F51D4D4-C98B-12B9-CC36-050B95AAB4D6</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BDD011B6-2AE3-7CA3-72BC-B2EE1E36FB43" referredColumn="48B61144-B5FD-FFD8-D670-C4CCDEF06D69"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="99AB312A-48DA-E10C-DDCF-11D9431CC0AB" name="Autorizacion_PK">
+<createdBy>Alexander</createdBy>
+<createdTime>2020-04-14 07:51:37 UTC</createdTime>
+<generatorID>473AA9CA-FD22-A8A9-5F7A-03DB2753F547</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="979B47EE-5CF8-2C4F-1811-AC53104F6A55"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="71D099B5-E3AC-8E6A-2FDA-07FC5729ECBF" name="Autorizacion_Empleados_FK">
+<createdBy>Alexander</createdBy>
+<createdTime>2020-04-14 07:51:37 UTC</createdTime>
+<generatorID>3AE8195C-242A-940D-9C47-91B910751AE0</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D420F954-0F17-B17C-DD12-48BEE9FB66A2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E6E10E1A-489C-EBE3-114D-1EE630E6243A" name="Autorizacion_Tienda_FK">
+<createdBy>Alexander</createdBy>
+<createdTime>2020-04-14 07:51:37 UTC</createdTime>
+<generatorID>AF197203-308D-78EC-9689-587322974298</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5956D59A-D5C5-7B36-8553-89E7C8E1FF4C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,102 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="FF0151AA-2349-792A-5480-EB80B9D4B917" name="Detalle_renta">
+<createdBy>Alexander</createdBy>
+<createdTime>2020-04-14 07:47:12 UTC</createdTime>
+<ownerDesignName>Modelo</ownerDesignName>
+<engineerTo>
+<item key="E1FED386-71EE-D2E8-A842-54C68EE9D1A0" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_detalle_renta" id="DEBA7BDA-230C-6519-55AF-5627BBEEA595">
+<createdBy>Alexander</createdBy>
+<createdTime>2020-04-14 07:47:19 UTC</createdTime>
+<ownerDesignName>Modelo</ownerDesignName>
+<engineerTo>
+<item key="E1FED386-71EE-D2E8-A842-54C68EE9D1A0" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cantidad" id="D888D688-3D96-0C4B-2A6A-7E97C2AC1454">
+<createdBy>Alexander</createdBy>
+<createdTime>2020-04-14 07:47:35 UTC</createdTime>
+<ownerDesignName>Modelo</ownerDesignName>
+<engineerTo>
+<item key="E1FED386-71EE-D2E8-A842-54C68EE9D1A0" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="precio" id="F4ED285A-B68D-8942-1EBA-9BF2A00C72CE">
+<createdBy>Alexander</createdBy>
+<createdTime>2020-04-14 07:47:43 UTC</createdTime>
+<ownerDesignName>Modelo</ownerDesignName>
+<engineerTo>
+<item key="E1FED386-71EE-D2E8-A842-54C68EE9D1A0" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,7,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_renta" id="966CAE67-8FAD-F27D-6F83-E4EFAEC8FED2">
+<createdBy>Alexander</createdBy>
+<createdTime>2020-04-14 07:48:06 UTC</createdTime>
+<generatorID>13F9BB5D-733B-26E9-7A5C-82F927CE78A5</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<engineerTo>
+<item key="E1FED386-71EE-D2E8-A842-54C68EE9D1A0" value="true"/>
+</engineerTo>
+<referedAttribute>E1A69DFA-7C36-1703-9F8F-DF304D4336EB</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_pelicula" id="59524843-5065-29E6-5C3B-DB0BFD0BB1B0">
+<createdBy>Alexander</createdBy>
+<createdTime>2020-04-14 07:48:29 UTC</createdTime>
+<generatorID>45F267CE-7B17-50EF-7163-0D8EBB5E5F5F</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<engineerTo>
+<item key="E1FED386-71EE-D2E8-A842-54C68EE9D1A0" value="true"/>
+</engineerTo>
+<referedAttribute>B86BDEE3-185E-4CAF-3EB9-D1A1B12CD9FE</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="6A5A4B34-E3B7-DFFC-DD37-748B073459D4" name="Detalle_renta PK">
+<createdBy>Alexander</createdBy>
+<createdTime>2020-04-14 07:47:32 UTC</createdTime>
+<ownerDesignName>Modelo</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="E1FED386-71EE-D2E8-A842-54C68EE9D1A0" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>DEBA7BDA-230C-6519-55AF-5627BBEEA595</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

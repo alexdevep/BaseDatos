@@ -1,0 +1,154 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="ED9C7CDE-B404-C9D5-F999-182BEE910E10" name="Renta">
+<createdBy>Alexander</createdBy>
+<createdTime>2020-04-14 07:51:37 UTC</createdTime>
+<generatorID>E856A0D9-D81E-036F-FEEE-898E5FD5781A</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_renta" id="62F13C11-8E19-8A4B-B311-C76DB5632C9F">
+<createdBy>Alexander</createdBy>
+<createdTime>2020-04-14 07:51:37 UTC</createdTime>
+<generatorID>E1A69DFA-7C36-1703-9F8F-DF304D4336EB</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_renta" id="749886B9-D8C1-494C-D435-128D62BB8BB3">
+<createdBy>Alexander</createdBy>
+<createdTime>2020-04-14 07:51:37 UTC</createdTime>
+<generatorID>1DC27A66-BEA8-F914-6D38-C9F4E88F5785</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_devuelta" id="14822CA7-D5A6-80E2-7904-CC11D7C89CB9">
+<createdBy>Alexander</createdBy>
+<createdTime>2020-04-14 07:51:37 UTC</createdTime>
+<generatorID>6B099ADA-6A88-DC0C-858A-8C0CDB264330</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_pago" id="16209571-3228-F850-7355-93945FF1A4A5">
+<createdBy>Alexander</createdBy>
+<createdTime>2020-04-14 07:51:37 UTC</createdTime>
+<generatorID>00731454-1D77-535D-8FC1-2726ECA98021</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_autorizacion" id="AC9E51BF-84B9-2A8B-CE1D-6B8C66DDF0E7">
+<createdBy>Alexander</createdBy>
+<createdTime>2020-04-14 07:51:37 UTC</createdTime>
+<generatorID>B8071E85-48B4-F49C-F22B-5B74DAE18147</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="63307F09-33B8-585A-3948-7B5A5AA4C64E" referredColumn="979B47EE-5CF8-2C4F-1811-AC53104F6A55"/>
+</associations>
+</Column>
+<Column name="id_tienda" id="C983F9C3-ADDF-AE30-8A90-6CC2B7416BF9">
+<createdBy>Alexander</createdBy>
+<createdTime>2020-04-14 07:51:37 UTC</createdTime>
+<generatorID>77A35A10-F1F6-637E-78B1-4C5ABD9E9A60</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AE3B4184-6474-D236-5E72-22F45CFD1BAB" referredColumn="6513E063-75DC-3FFA-D05B-08E93E4DE25A"/>
+</associations>
+</Column>
+<Column name="id_cliente" id="B7AA501C-2FCE-78A2-D6BF-9C502591F198">
+<createdBy>Alexander</createdBy>
+<createdTime>2020-04-14 07:51:37 UTC</createdTime>
+<generatorID>BE08DB21-3080-BEA8-043A-0470048917E7</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AB8D60A9-8897-A6F6-52BB-475FA67255DE" referredColumn="D08DD953-2018-BACB-AB92-5C4A2D9E8511"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C03E7D3F-CBFF-F474-0DE3-7AF982DF6AC1" name="Renta_PK">
+<createdBy>Alexander</createdBy>
+<createdTime>2020-04-14 07:51:37 UTC</createdTime>
+<generatorID>8D81B54E-A83A-3852-5982-211CC89F7CD6</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="62F13C11-8E19-8A4B-B311-C76DB5632C9F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8EDBEA70-4162-1619-CFB4-EB7F7E857AAA" name="Renta_Autorizacion_FK">
+<createdBy>Alexander</createdBy>
+<createdTime>2020-04-14 07:51:37 UTC</createdTime>
+<generatorID>CD3B7CD2-DF2F-ABF1-923E-11A045B7CF2E</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AC9E51BF-84B9-2A8B-CE1D-6B8C66DDF0E7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="950D297F-E169-79F4-C4AE-1D4A4A0BF6F5" name="Renta_Clientes_FK">
+<createdBy>Alexander</createdBy>
+<createdTime>2020-04-14 07:51:37 UTC</createdTime>
+<generatorID>6B8631EF-4868-AC43-53CA-5389F2CBD948</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B7AA501C-2FCE-78A2-D6BF-9C502591F198"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="335D3752-3270-E3A2-CCDA-E87E7EF71793" name="Renta_Tienda_FK">
+<createdBy>Alexander</createdBy>
+<createdTime>2020-04-14 07:51:37 UTC</createdTime>
+<generatorID>E889970F-5219-56F5-CE44-528E4C2078C3</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C983F9C3-ADDF-AE30-8A90-6CC2B7416BF9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

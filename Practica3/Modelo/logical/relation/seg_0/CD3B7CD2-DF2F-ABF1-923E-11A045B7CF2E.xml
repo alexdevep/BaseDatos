@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="fk_id_autorizacion" directorySegmentName="seg_0" id="CD3B7CD2-DF2F-ABF1-923E-11A045B7CF2E">
+<createdBy>Alexander</createdBy>
+<createdTime>2020-04-14 07:45:16 UTC</createdTime>
+<ownerDesignName>Modelo</ownerDesignName>
+<engineerTo>
+<item key="E1FED386-71EE-D2E8-A842-54C68EE9D1A0" value="true"/>
+</engineerTo>
+<sourcePk>473AA9CA-FD22-A8A9-5F7A-03DB2753F547</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>E1D656CB-EF61-68AE-1AE4-1A8F47762ABC</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>E856A0D9-D81E-036F-FEEE-898E5FD5781A</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

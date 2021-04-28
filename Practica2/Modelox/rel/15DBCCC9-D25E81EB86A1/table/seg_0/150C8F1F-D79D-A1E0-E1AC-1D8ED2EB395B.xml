@@ -1,0 +1,102 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="150C8F1F-D79D-A1E0-E1AC-1D8ED2EB395B" name="Ubicacion_GPS">
+<createdBy>Alexander</createdBy>
+<createdTime>2020-03-27 10:56:07 UTC</createdTime>
+<generatorID>608001EF-3351-073B-15DE-0D38843A4201</generatorID>
+<ownerDesignName>Modelox</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_ubicacion_gps" id="F803464A-A8E4-C0E8-82E9-8F27FD17EFE5">
+<createdBy>Alexander</createdBy>
+<createdTime>2020-03-27 10:56:07 UTC</createdTime>
+<generatorID>6D57080F-F87E-BC02-BC80-E5B59D104403</generatorID>
+<ownerDesignName>Modelox</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="direccion" id="BB964055-4172-F251-9F65-44464F5E411B">
+<createdBy>Alexander</createdBy>
+<createdTime>2020-03-27 10:56:07 UTC</createdTime>
+<generatorID>71354B93-1B6B-A9E6-8E70-CA38AF6AD92F</generatorID>
+<ownerDesignName>Modelox</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_llegada" id="71006E02-FBB7-1CAE-DE63-D1C6D5D93EC9">
+<createdBy>Alexander</createdBy>
+<createdTime>2020-03-27 10:56:07 UTC</createdTime>
+<generatorID>3A488B69-4B70-0331-EC49-4E6A7C164327</generatorID>
+<ownerDesignName>Modelox</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_salida" id="5B040E10-310C-04CD-F251-AA22017EB29F">
+<createdBy>Alexander</createdBy>
+<createdTime>2020-03-27 10:56:07 UTC</createdTime>
+<generatorID>7CE904D4-92BB-0418-5A18-92B581628D58</generatorID>
+<ownerDesignName>Modelox</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_victima" id="0CF3C5AB-4C18-3225-C680-6F2BE2A0E64F">
+<createdBy>Alexander</createdBy>
+<createdTime>2020-03-27 10:56:07 UTC</createdTime>
+<generatorID>1DAC5393-1A13-AAE9-B2A1-42B050F51D58</generatorID>
+<ownerDesignName>Modelox</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4872E21F-B279-5DFE-B026-CC7B87D67B4C" referredColumn="4A858327-208F-42A1-8D47-7EA069F9018A"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C14E29E4-54E0-9E15-BBEC-2EBC4CA04948" name="Ubicacion_GPS_PK">
+<createdBy>Alexander</createdBy>
+<createdTime>2020-03-27 10:56:07 UTC</createdTime>
+<generatorID>BE2D865A-0634-112A-0264-C024C889360E</generatorID>
+<ownerDesignName>Modelox</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F803464A-A8E4-C0E8-82E9-8F27FD17EFE5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2C416C81-97D5-FE61-7D1E-AA2EF7EE6CBF" name="Ubicacion_GPS_Victimas_FK">
+<createdBy>Alexander</createdBy>
+<createdTime>2020-03-27 10:56:07 UTC</createdTime>
+<generatorID>AE3B6D21-52A5-9DBF-3B17-5EE6BEB77944</generatorID>
+<ownerDesignName>Modelox</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0CF3C5AB-4C18-3225-C680-6F2BE2A0E64F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

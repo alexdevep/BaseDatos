@@ -1,0 +1,166 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6D656806-A375-8114-725F-03D58FEF4C52" name="Empleados">
+<createdBy>Alexander</createdBy>
+<createdTime>2020-04-14 07:51:37 UTC</createdTime>
+<generatorID>512F3D5F-0706-72E5-9077-395F80FC6586</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_empleado" id="60A60722-0C62-456B-173C-CC820CE2CD8C">
+<createdBy>Alexander</createdBy>
+<createdTime>2020-04-14 07:51:37 UTC</createdTime>
+<generatorID>6E8C68C4-B0C2-D90B-15B0-66DEE67EAB80</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="62CB994E-A3AE-92CE-EDA7-E2527774D4E0">
+<createdBy>Alexander</createdBy>
+<createdTime>2020-04-14 07:51:37 UTC</createdTime>
+<generatorID>27CE8841-3C59-EC2B-34D5-606C99557793</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="apellido" id="FD592AF3-EBA6-B0DF-D985-84FB45507ED6">
+<createdBy>Alexander</createdBy>
+<createdTime>2020-04-14 07:51:37 UTC</createdTime>
+<generatorID>2637A1ED-8A5A-9125-966C-81752698BCCA</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="direccion" id="0CB83F15-CFFC-2802-8BE4-089572ACD9A3">
+<createdBy>Alexander</createdBy>
+<createdTime>2020-04-14 07:51:37 UTC</createdTime>
+<generatorID>ADFD92A7-B51D-B181-237C-EA4800C95E3A</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="correo" id="73684FC4-11C6-703F-5F41-BB3F80793490">
+<createdBy>Alexander</createdBy>
+<createdTime>2020-04-14 07:51:37 UTC</createdTime>
+<generatorID>FDF7ADF8-F3C7-66E7-97E5-68C27E9B25CE</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="estado" id="0236F44B-E332-23A9-C920-CEB7AB53ADB2">
+<createdBy>Alexander</createdBy>
+<createdTime>2020-04-14 07:51:37 UTC</createdTime>
+<generatorID>32DA0C61-709A-CC47-000F-4BAE97AFCF29</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>5,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Empleados_ID" id="48B61144-B5FD-FFD8-D670-C4CCDEF06D69">
+<createdBy>Alexander</createdBy>
+<createdTime>2020-04-14 07:51:37 UTC</createdTime>
+<ownerDesignName>Modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+<Column name="Distrito_id_distrito" id="C64142E5-0953-B3ED-2143-456962CA133F">
+<createdBy>Alexander</createdBy>
+<createdTime>2020-04-23 11:06:02 UTC</createdTime>
+<generatorID>A3152A26-39D6-4764-DDBC-DFE7AAEBAC7C</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CAA13652-A838-BF6A-567A-DE35E37B225D" referredColumn="BB749570-4092-984A-FDED-706427DB7DC8"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8AFB79ED-1259-4E4A-CFE7-DEDDB1041820" name="Empleados_PK">
+<createdBy>Alexander</createdBy>
+<createdTime>2020-04-14 07:51:37 UTC</createdTime>
+<ownerDesignName>Modelo</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="48B61144-B5FD-FFD8-D670-C4CCDEF06D69"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8D769E25-EE25-41DF-3E31-DD5999C46549" name="Empleados_id_empleado_UN">
+<createdBy>Alexander</createdBy>
+<createdTime>2020-04-23 11:06:02 UTC</createdTime>
+<generatorID>EF5FAD51-C6AE-85FF-8490-708D9B2B14D9</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="60A60722-0C62-456B-173C-CC820CE2CD8C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B7977DE5-6185-4ED2-014C-A040EBE3950F" name="Empleados__IDX">
+<createdBy>Alexander</createdBy>
+<createdTime>2020-04-14 07:51:37 UTC</createdTime>
+<ownerDesignName>Modelo</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>5EFD25F6-967D-3B4C-4964-3AD1BE066783</relationGeneratorID>
+</ind_PK_UK>
+<ind_PK_UK id="50281FA3-2B71-16FB-DB00-91544CBFC148" name="Empleados__IDXv1v1">
+<createdBy>Alexander</createdBy>
+<createdTime>2020-04-23 11:06:02 UTC</createdTime>
+<ownerDesignName>Modelo</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>91EE9680-82EC-8DBD-E2C9-41FD860DD86F</relationGeneratorID>
+</ind_PK_UK>
+<ind_PK_UK id="EFA5A8B2-63EC-6FA8-37EA-3EE5F4DDB7B1" name="Empleados_Distrito_FK">
+<createdBy>Alexander</createdBy>
+<createdTime>2020-04-23 11:06:02 UTC</createdTime>
+<generatorID>6F74B922-8291-B474-01E4-D8750BD146B9</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C64142E5-0953-B3ED-2143-456962CA133F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="74BC6C6A-3830-F480-D6CD-E092100B2912" containerWithKeyObject="9D4103AE-3E8F-C1B5-AAF4-6900F6E1D357" localFKIndex="CACE355A-1F8A-C3EC-B331-77A27AF3B9CB" name="Contactos_Victimas_FK">
+<createdBy>Alexander</createdBy>
+<createdTime>2020-03-27 10:56:07 UTC</createdTime>
+<generatorID>FD183A3A-D400-5EF1-16BF-87162BC30812</generatorID>
+<ownerDesignName>Modelox</ownerDesignName>
+<referredTableLongName>Victimas</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>88ECA574-8692-B48D-1C98-48B5DEB5D6B7</referredTableID>
+<keyObject>ED9D6304-748D-B526-6B58-B107E37D5722</keyObject>
+<referredKeyID>ED9D6304-748D-B526-6B58-B107E37D5722</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_victima</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

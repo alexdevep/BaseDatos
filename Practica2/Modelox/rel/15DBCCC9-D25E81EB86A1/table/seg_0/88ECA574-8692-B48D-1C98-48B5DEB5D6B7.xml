@@ -1,0 +1,153 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="88ECA574-8692-B48D-1C98-48B5DEB5D6B7" name="Victimas">
+<createdBy>Alexander</createdBy>
+<createdTime>2020-03-27 10:47:27 UTC</createdTime>
+<generatorID>293B21A7-19AB-F24C-62D9-B3412A9878A0</generatorID>
+<ownerDesignName>Modelox</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_victima" id="4A858327-208F-42A1-8D47-7EA069F9018A">
+<createdBy>Alexander</createdBy>
+<createdTime>2020-03-27 10:47:27 UTC</createdTime>
+<generatorID>C439134F-C224-AA59-A425-5AD3C4C52DF5</generatorID>
+<ownerDesignName>Modelox</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="ABA523ED-BA7F-1AB9-8DEA-70ACBECB7031">
+<createdBy>Alexander</createdBy>
+<createdTime>2020-03-27 10:47:27 UTC</createdTime>
+<generatorID>F33A6621-1B2F-9456-6072-C551305E1714</generatorID>
+<ownerDesignName>Modelox</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="apellido" id="F72FA058-B4B6-A9FA-1A0A-19020B90B46C">
+<createdBy>Alexander</createdBy>
+<createdTime>2020-03-27 10:47:27 UTC</createdTime>
+<generatorID>59399D88-C606-B623-26D7-C2A0B6DDA181</generatorID>
+<ownerDesignName>Modelox</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="direccion" id="C9528149-F5D2-D169-B172-6B507FE8E974">
+<createdBy>Alexander</createdBy>
+<createdTime>2020-03-27 10:47:27 UTC</createdTime>
+<generatorID>8DC31318-2E7F-3D0A-871E-6F11D3241F07</generatorID>
+<ownerDesignName>Modelox</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150</dataTypeSize>
+<ownDataTypeParameters>150,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_primera_sospecha" id="0A72B166-FDC2-DA76-ADC6-D524A1BB1C13">
+<createdBy>Alexander</createdBy>
+<createdTime>2020-03-27 10:47:27 UTC</createdTime>
+<generatorID>87DC2777-08E9-0C16-520B-DCFE190F3024</generatorID>
+<ownerDesignName>Modelox</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_confirmacion" id="9903CCFF-900C-E451-D039-FC58C73665EF">
+<createdBy>Alexander</createdBy>
+<createdTime>2020-03-27 10:47:27 UTC</createdTime>
+<generatorID>017B1EA6-6E1A-13FF-98B1-36D6F62DD51F</generatorID>
+<ownerDesignName>Modelox</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_muerte" id="73A22AC9-81DA-78E0-67D0-F87C12A289EB">
+<createdBy>Alexander</createdBy>
+<createdTime>2020-03-27 10:47:27 UTC</createdTime>
+<generatorID>D1421426-3E0E-21C4-75DC-6A9107D081F8</generatorID>
+<ownerDesignName>Modelox</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="estado_victima" id="2F3D5DAD-D09D-9D79-4B77-CA0038E5834F">
+<createdBy>Alexander</createdBy>
+<createdTime>2020-03-27 10:47:27 UTC</createdTime>
+<generatorID>3DBE71C4-3CDF-0CF1-D3F3-022B55FA30D4</generatorID>
+<ownerDesignName>Modelox</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_hospital" id="5E099E93-AD50-2A2A-FDBB-7BE4E39363BF">
+<createdBy>Alexander</createdBy>
+<createdTime>2020-03-27 10:47:27 UTC</createdTime>
+<generatorID>9FA3422E-898F-FA50-9970-6DCD90682EF3</generatorID>
+<ownerDesignName>Modelox</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="33BF1B11-7B6B-EDE2-0017-5A207866DFB5" referredColumn="DD43C61A-B6D4-8BE6-2525-A42EFA62FB4B"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="ED9D6304-748D-B526-6B58-B107E37D5722" name="Victimas_PK">
+<createdBy>Alexander</createdBy>
+<createdTime>2020-03-27 10:47:27 UTC</createdTime>
+<generatorID>CC1DCD7A-B2E2-BB6E-7C5B-3E2AFFF99D01</generatorID>
+<ownerDesignName>Modelox</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4A858327-208F-42A1-8D47-7EA069F9018A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="198B9007-67CF-975F-6EE6-D4FB4642A4D3" name="Victimas_Hospital_FK">
+<createdBy>Alexander</createdBy>
+<createdTime>2020-03-27 10:47:27 UTC</createdTime>
+<generatorID>6DBCFE61-32CA-2F87-9B65-A5E5B449B599</generatorID>
+<ownerDesignName>Modelox</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5E099E93-AD50-2A2A-FDBB-7BE4E39363BF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

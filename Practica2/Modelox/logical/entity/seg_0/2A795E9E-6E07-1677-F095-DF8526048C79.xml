@@ -1,0 +1,127 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="2A795E9E-6E07-1677-F095-DF8526048C79" name="Efectividad">
+<createdBy>Alexander</createdBy>
+<createdTime>2020-03-27 10:42:15 UTC</createdTime>
+<ownerDesignName>Modelox</ownerDesignName>
+<engineerTo>
+<item key="15DBCCC9-9A79-B50F-F7A7-D25E81EB86A1" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_victima" id="89BB441E-E782-4417-3A8C-0392F8925777">
+<createdBy>Alexander</createdBy>
+<createdTime>2020-03-27 10:42:23 UTC</createdTime>
+<ownerDesignName>Modelox</ownerDesignName>
+<engineerTo>
+<item key="15DBCCC9-9A79-B50F-F7A7-D25E81EB86A1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_tratamiento" id="99F48AEC-F64B-83DB-4865-A6CD4D9C352C">
+<createdBy>Alexander</createdBy>
+<createdTime>2020-03-27 10:42:48 UTC</createdTime>
+<ownerDesignName>Modelox</ownerDesignName>
+<engineerTo>
+<item key="15DBCCC9-9A79-B50F-F7A7-D25E81EB86A1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nivel_efectividad" id="E0499C1F-811D-9298-2389-67934F3754F0">
+<createdBy>Alexander</createdBy>
+<createdTime>2020-03-27 10:43:14 UTC</createdTime>
+<ownerDesignName>Modelox</ownerDesignName>
+<engineerTo>
+<item key="15DBCCC9-9A79-B50F-F7A7-D25E81EB86A1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha_inicio_tratamiento" id="054FF9B5-C9AA-71EC-1FF7-C65A9232C8BD">
+<createdBy>Alexander</createdBy>
+<createdTime>2020-03-27 10:43:40 UTC</createdTime>
+<ownerDesignName>Modelox</ownerDesignName>
+<engineerTo>
+<item key="15DBCCC9-9A79-B50F-F7A7-D25E81EB86A1" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha_fin_tratamiento" id="753489A3-F11B-A874-8E0E-8BF11E77FA57">
+<createdBy>Alexander</createdBy>
+<createdTime>2020-03-27 10:44:05 UTC</createdTime>
+<ownerDesignName>Modelox</ownerDesignName>
+<engineerTo>
+<item key="15DBCCC9-9A79-B50F-F7A7-D25E81EB86A1" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_tratamiento1" id="E8D81F2C-8830-FA65-FB0F-3C70793FE263">
+<createdBy>Alexander</createdBy>
+<createdTime>2020-03-27 10:45:56 UTC</createdTime>
+<generatorID>E5C0FDC7-EAB6-DA20-6628-C4DCD5098DB9</generatorID>
+<ownerDesignName>Modelox</ownerDesignName>
+<engineerTo>
+<item key="15DBCCC9-9A79-B50F-F7A7-D25E81EB86A1" value="true"/>
+</engineerTo>
+<referedAttribute>6AE724CC-2708-6821-018C-5DCB829BEAFE</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_victima1" id="D0360241-389E-81CB-D285-F23E057B6C61">
+<createdBy>Alexander</createdBy>
+<createdTime>2020-03-27 10:46:41 UTC</createdTime>
+<generatorID>8358DD29-FED2-BEC9-9907-C73F8351B0D7</generatorID>
+<ownerDesignName>Modelox</ownerDesignName>
+<engineerTo>
+<item key="15DBCCC9-9A79-B50F-F7A7-D25E81EB86A1" value="true"/>
+</engineerTo>
+<referedAttribute>C439134F-C224-AA59-A425-5AD3C4C52DF5</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="8A18C1B2-24CF-9C4B-D35F-07920DD7E2BE" name="Efectividad PK">
+<createdBy>Alexander</createdBy>
+<createdTime>2020-03-27 10:42:35 UTC</createdTime>
+<ownerDesignName>Modelox</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="15DBCCC9-9A79-B50F-F7A7-D25E81EB86A1" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>89BB441E-E782-4417-3A8C-0392F8925777</attributeRef>
+<attributeRef>99F48AEC-F64B-83DB-4865-A6CD4D9C352C</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,122 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="82C5BCF7-8983-5639-A478-D424A5A02C00" name="Tienda">
+<createdBy>Alexander</createdBy>
+<createdTime>2020-04-14 07:51:37 UTC</createdTime>
+<generatorID>2D44A805-F7FA-E470-4261-26DF4C8E9215</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_tienda" id="6513E063-75DC-3FFA-D05B-08E93E4DE25A">
+<createdBy>Alexander</createdBy>
+<createdTime>2020-04-14 07:51:37 UTC</createdTime>
+<generatorID>456C7D5F-8E9A-C99F-ADEE-34E5E5763949</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="EF4E05B4-4899-E602-9EE8-4B3D673F21EC">
+<createdBy>Alexander</createdBy>
+<createdTime>2020-04-14 07:51:37 UTC</createdTime>
+<generatorID>8A330B52-124E-7517-65AA-000DECA20EEE</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_distrito" id="BE1E2311-7ABB-6E3E-3504-BADF90DEDC21">
+<createdBy>Alexander</createdBy>
+<createdTime>2020-04-14 07:51:37 UTC</createdTime>
+<generatorID>02699649-8616-3FBE-B4EB-18E37AB4D350</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C1768EC9-9188-CEB1-1CE6-2F7F44582204" referredColumn="BB749570-4092-984A-FDED-706427DB7DC8"/>
+</associations>
+</Column>
+<Column name="Empleados_id_empleado" id="FFC91541-0051-8200-43A0-8C67CD60B54D">
+<createdBy>Alexander</createdBy>
+<createdTime>2020-04-23 11:06:02 UTC</createdTime>
+<generatorID>AB56AFA7-3D38-8F62-5F1C-1CF417F15588</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6AFB9B3A-3B2F-1A28-4191-4AE95FFE86CD" referredColumn="60A60722-0C62-456B-173C-CC820CE2CD8C"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3C6A05BD-381C-BF22-6E0E-163C136467EA" name="Tienda_PK">
+<createdBy>Alexander</createdBy>
+<createdTime>2020-04-14 07:51:37 UTC</createdTime>
+<generatorID>D21A7F14-D855-5B1F-F0BD-34737FD791B7</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6513E063-75DC-3FFA-D05B-08E93E4DE25A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7220E02E-57BB-733C-8930-BA49F2DB7374" name="Tienda__IDX">
+<createdBy>Alexander</createdBy>
+<createdTime>2020-04-14 07:51:37 UTC</createdTime>
+<ownerDesignName>Modelo</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>5EFD25F6-967D-3B4C-4964-3AD1BE066783</relationGeneratorID>
+</ind_PK_UK>
+<ind_PK_UK id="B662DAA5-7A6C-F2F2-FC4F-371A93F50760" name="Tienda__IDX">
+<createdBy>Alexander</createdBy>
+<createdTime>2020-04-23 11:06:02 UTC</createdTime>
+<ownerDesignName>Modelo</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>91EE9680-82EC-8DBD-E2C9-41FD860DD86F</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="FFC91541-0051-8200-43A0-8C67CD60B54D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E0E37B07-87AB-AD0C-467F-9D498E6755AE" name="Tienda_Distrito_FK">
+<createdBy>Alexander</createdBy>
+<createdTime>2020-04-14 07:51:37 UTC</createdTime>
+<generatorID>76714A2C-DD9E-AF64-F9BD-4DFCA7B48DD0</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BE1E2311-7ABB-6E3E-3504-BADF90DEDC21"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="18DEAE52-C3DC-47F5-3F08-16A098E5FAD1" name="Tienda_Empleados_FKv2">
+<createdBy>Alexander</createdBy>
+<createdTime>2020-04-23 11:06:02 UTC</createdTime>
+<generatorID>91EE9680-82EC-8DBD-E2C9-41FD860DD86F</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FFC91541-0051-8200-43A0-8C67CD60B54D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

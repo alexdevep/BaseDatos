@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6428AE7C-C213-590D-4D02-510BF4A919B4" name="Tratamientos">
+<createdBy>Alexander</createdBy>
+<createdTime>2020-03-27 10:47:27 UTC</createdTime>
+<generatorID>E1584A7F-C156-08A3-E6ED-8D6544AD3FAD</generatorID>
+<ownerDesignName>Modelox</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_tratamiento" id="2E0F8881-18D8-9C88-433F-781168F99EEE">
+<createdBy>Alexander</createdBy>
+<createdTime>2020-03-27 10:47:27 UTC</createdTime>
+<generatorID>6AE724CC-2708-6821-018C-5DCB829BEAFE</generatorID>
+<ownerDesignName>Modelox</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="descripcion" id="52EEE243-F69C-ECEF-BE96-A56E08E5E31E">
+<createdBy>Alexander</createdBy>
+<createdTime>2020-03-27 10:47:27 UTC</createdTime>
+<generatorID>0E2D844F-54C5-996C-14B0-8E1ECE3F559C</generatorID>
+<ownerDesignName>Modelox</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150</dataTypeSize>
+<ownDataTypeParameters>150,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nivel_efectividad" id="F00C3D19-787A-4133-A0A8-C4D63D136229">
+<createdBy>Alexander</createdBy>
+<createdTime>2020-03-27 10:47:27 UTC</createdTime>
+<generatorID>C322E258-E788-0DBA-E7E2-1F198AA8C1AF</generatorID>
+<ownerDesignName>Modelox</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="64339372-4B29-D93E-D5FC-AE72887561F1" name="Tratamientos_PK">
+<createdBy>Alexander</createdBy>
+<createdTime>2020-03-27 10:47:27 UTC</createdTime>
+<generatorID>51227C96-359F-37F0-5343-0CCE5E54784B</generatorID>
+<ownerDesignName>Modelox</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2E0F8881-18D8-9C88-433F-781168F99EEE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

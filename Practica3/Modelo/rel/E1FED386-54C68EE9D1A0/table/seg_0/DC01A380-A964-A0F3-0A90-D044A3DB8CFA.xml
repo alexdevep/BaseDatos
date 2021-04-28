@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DC01A380-A964-A0F3-0A90-D044A3DB8CFA" name="Traducciones">
+<createdBy>Alexander</createdBy>
+<createdTime>2020-04-14 07:51:37 UTC</createdTime>
+<ownerDesignName>Modelo</ownerDesignName>
+<ordsAlias>fk_id_lenguaje</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_lenguaje" id="E902096B-508A-B999-A40F-700BC5B2AFE6">
+<createdBy>Alexander</createdBy>
+<createdTime>2020-04-14 07:51:37 UTC</createdTime>
+<ownerDesignName>Modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="94D5B308-36AB-D079-BFB3-89F80948C2C1" referredColumn="8EA700BB-4F28-1D11-3637-68D97E9B4CFE"/>
+</associations>
+</Column>
+<Column name="id_pelicula" id="AF655FD3-B216-BE11-8981-FFFFEE4E07C2">
+<createdBy>Alexander</createdBy>
+<createdTime>2020-04-14 07:51:37 UTC</createdTime>
+<ownerDesignName>Modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="11F8E117-620E-E58E-FCD5-558EF02BB342" referredColumn="77D7508B-1F7C-42D0-640A-F4C7AE8D7C60"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8AD0B557-A7A3-A639-5584-AFC829308452" name="fk_id_lenguaje_PK">
+<createdBy>Alexander</createdBy>
+<createdTime>2020-04-14 07:51:37 UTC</createdTime>
+<ownerDesignName>Modelo</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E902096B-508A-B999-A40F-700BC5B2AFE6"/>
+<colUsage columnID="AF655FD3-B216-BE11-8981-FFFFEE4E07C2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4B2988C6-65D7-9001-792A-86D4A5567A27" name="fk_id_lenguaje_Lenguaje_FK">
+<createdBy>Alexander</createdBy>
+<createdTime>2020-04-14 07:51:37 UTC</createdTime>
+<generatorID>2927CA8D-2ECB-F969-3FA0-CF1DC2F827CA</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E902096B-508A-B999-A40F-700BC5B2AFE6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3D011AAC-DB49-9726-211B-66FBD962E865" name="fk_id_lenguaje_Pelicula_FK">
+<createdBy>Alexander</createdBy>
+<createdTime>2020-04-14 07:51:37 UTC</createdTime>
+<generatorID>2927CA8D-2ECB-F969-3FA0-CF1DC2F827CA</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AF655FD3-B216-BE11-8981-FFFFEE4E07C2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

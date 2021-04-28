@@ -1,0 +1,91 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="ABD26A6A-A910-6700-F072-AE0EBA2AAD0C" name="Inventario">
+<createdBy>Alexander</createdBy>
+<createdTime>2020-04-14 07:51:37 UTC</createdTime>
+<generatorID>C832C2F6-4FCF-25B2-59EA-566C04467EFA</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<ordsAlias>tienda_pelicula</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_pelicula" id="5B8A7EA3-E8D0-72F7-BBFF-F1E7C918A7A2">
+<createdBy>Alexander</createdBy>
+<createdTime>2020-04-14 07:51:37 UTC</createdTime>
+<generatorID>ADEDA47D-D4E2-6430-E990-F5B5D98D3A61</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="04DD609A-3052-9259-280C-8858C99E79CB" referredColumn="77D7508B-1F7C-42D0-640A-F4C7AE8D7C60"/>
+</associations>
+</Column>
+<Column name="id_tienda" id="F6098770-A512-35C5-6AEA-B148004AADAD">
+<createdBy>Alexander</createdBy>
+<createdTime>2020-04-14 07:51:37 UTC</createdTime>
+<generatorID>666FB924-A6CB-E15B-F779-11992CE5A2C2</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CA675B8C-14E6-07F2-73CC-3B5DAC813700" referredColumn="6513E063-75DC-3FFA-D05B-08E93E4DE25A"/>
+</associations>
+</Column>
+<Column name="cantidad" id="D5AEA41C-05E5-911B-B7CC-8D172E3CB0FC">
+<createdBy>Alexander</createdBy>
+<createdTime>2020-04-14 07:51:37 UTC</createdTime>
+<generatorID>CD38788C-B2A1-B27A-4C08-43AA5F79821C</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0218CAA5-0C68-6BB2-5F7E-E513E06E0E97" name="Tienda_pelicula_PK">
+<createdBy>Alexander</createdBy>
+<createdTime>2020-04-14 08:11:30 UTC</createdTime>
+<ownerDesignName>Modelo</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5B8A7EA3-E8D0-72F7-BBFF-F1E7C918A7A2"/>
+<colUsage columnID="F6098770-A512-35C5-6AEA-B148004AADAD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9B1306D9-B60E-1655-B128-BD36DCFB29CD" name="Tienda_pelicula_Pelicula_FK">
+<createdBy>Alexander</createdBy>
+<createdTime>2020-04-14 07:51:37 UTC</createdTime>
+<generatorID>E37063EA-41FF-5835-72CD-8F9CD7D4D259</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5B8A7EA3-E8D0-72F7-BBFF-F1E7C918A7A2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="88D13AA2-46B7-70AF-6248-260940C57931" name="Tienda_pelicula_Tienda_FK">
+<createdBy>Alexander</createdBy>
+<createdTime>2020-04-14 07:51:37 UTC</createdTime>
+<generatorID>878E6EB7-F53D-F509-A39F-732D97E9998B</generatorID>
+<ownerDesignName>Modelo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F6098770-A512-35C5-6AEA-B148004AADAD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
